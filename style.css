@@ -1,0 +1,37 @@
+html {
+  width: 100%;
+}
+body {
+  background-color: #c96;
+}
+#react-container { 
+  font-size: 100%;
+}
+.glyphicon {
+  margin: 5px;
+}
+
+.glyphicon-plus {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 200;
+}
+
+.note {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  background-color: #fe9;
+  -webkit- box-shadow: 6px 6px 6px #630;
+  -moz- box-shadow: 6px 6px 6px #630;
+  box-shadow: 4px 4px 10px #630;
+  font-family: 'Shadows Into Light', Helvetica, sans-serif;
+  font-size: 1.8em;
+}
+.note-actions {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
